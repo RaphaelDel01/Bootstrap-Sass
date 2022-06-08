@@ -1,0 +1,19 @@
+@import "./variables2.scss";
+
+h1{
+    background-color: $color;
+}
+
+.class1{
+    background-color: $fond;
+}
+
+div{
+    background-color: royalblue;
+    .class2{
+        color: orange;
+    }
+    :hover{
+        background-color: green;
+    }
+}
